@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("com.beust:klaxon:5.6")
 }
 
 tasks.test {
